@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Android Dev & QA Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Crimson+Pro:ital,wght@0,300;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ─── NAV ─── -->
+  <nav>
+    <!-- CHANGE: Replace "Y" with your first initial -->
+    <div class="nav-logo">Y<span>.</span>DEV</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-lines">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero-tag">Available for work &nbsp;·&nbsp; Ludhiana, IN</div>
+    <h1>
+      ANDROID<br>
+      <span class="dim">&amp; QA</span><br>
+      <span class="accent">ENGINEER</span>
+    </h1>
+    <p class="hero-sub">
+      Building bulletproof Android apps and breaking them systematically — because great software demands both creation and destruction.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Projects →</a>
+      <a href="#contact" class="btn-ghost">Get In Touch</a>
+    </div>
+    <div class="scroll-hint">
+      <span class="scroll-line"></span>
+      Scroll to explore
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about">
+    <div class="section-label">// 01 — About</div>
+    <div class="about-grid">
+
+      <div class="about-left reveal">
+        <div class="about-avatar">
+          <!-- CHANGE: Replace 'your-photo.jpg' with your actual photo filename -->
+          <img
+            src="your-photo.jpg"
+            alt="Your Name"
+            class="avatar-photo"
+            onerror="this.style.display='none'; document.querySelector('.avatar-fallback').style.display='flex';"
+          />
+          <!-- Fallback shown when no photo is found -->
+          <div class="avatar-fallback">
+            <!-- CHANGE: Replace 'YN' with your initials -->
+            <div class="avatar-initials">YN</div>
+            <div class="avatar-label">Add your-photo.jpg</div>
+          </div>
+        </div>
+        <!-- CHANGE: Replace with your real name -->
+        <div class="avatar-name">Akash Maurya</div>
+        <!-- CHANGE: Update title if needed -->
+        <div class="avatar-title">Android Dev &amp; QA Engineer</div>
+      </div>
+
+      <div class="about-right">
+        <p class="about-bio reveal">
+          I'm a <em>Software Tester</em> and <em>Android Developer</em> who thrives at the intersection of creation and critical thinking. I build native Android applications with clean architecture — and then I tear them apart methodically to find every edge case before users do.
+        </p>
+        <p class="about-bio reveal" style="margin-bottom: 40px; font-size: 17px; color: var(--muted);">
+          My dual perspective as both developer and quality engineer means I write code that's not just functional, but resilient. I don't just ship features — I ship confidence.
+        </p>
+        <div class="about-details reveal">
+          <div class="detail-row">
+            <span class="detail-key">Location</span>
+            <!-- CHANGE: Update if needed -->
+            <span class="detail-val">Ludhiana, Punjab, India</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-key">Experience</span>
+            <!-- CHANGE: Update years -->
+            <span class="detail-val">3+ Years</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-key">Specialization</span>
+            <span class="detail-val">Android Dev + QA Automation</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-key">Status</span>
+            <span class="detail-val" style="color: #22c55e;">● Open to Opportunities</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── SKILLS ─── -->
+  <section id="skills">
+    <div class="section-label">// 02 — Skills</div>
+    <div class="section-title reveal">WHAT I<br>DO BEST</div>
+    <div class="skills-grid reveal">
+
+      <div class="skill-card">
+        <span class="skill-icon">📱</span>
+        <div class="skill-name">Android Development</div>
+        <p class="skill-desc">Native Android apps with modern architecture patterns — clean, scalable, and production-ready.</p>
+        <div class="skill-tags">
+          <span class="tag">Kotlin</span>
+          <span class="tag">Java</span>
+          <span class="tag">Jetpack Compose</span>
+          <span class="tag">MVVM</span>
+          <span class="tag">Room DB</span>
+          <span class="tag">Retrofit</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🧪</span>
+        <div class="skill-name">QA & Testing</div>
+        <p class="skill-desc">Systematic quality assurance — manual, automated, and performance testing across the full SDLC.</p>
+        <div class="skill-tags">
+          <span class="tag">Selenium</span>
+          <span class="tag">Appium</span>
+          <span class="tag">Espresso</span>
+          <span class="tag">JUnit</span>
+          <span class="tag">JIRA</span>
+          <span class="tag">Postman</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">⚙️</span>
+        <div class="skill-name">DevOps & Tools</div>
+        <p class="skill-desc">CI/CD pipelines, version control, and build automation to keep delivery fast and reliable.</p>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">GitHub Actions</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">Gradle</span>
+          <span class="tag">Android Studio</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🔗</span>
+        <div class="skill-name">API & Backend</div>
+        <p class="skill-desc">REST API integration, testing, and consumption — connecting mobile apps to the services they need.</p>
+        <div class="skill-tags">
+          <span class="tag">REST APIs</span>
+          <span class="tag">JSON</span>
+          <span class="tag">OkHttp</span>
+          <span class="tag">GraphQL</span>
+          <span class="tag">Postman</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🏗️</span>
+        <div class="skill-name">Architecture</div>
+        <p class="skill-desc">Applying clean code principles and design patterns that make apps maintainable at scale.</p>
+        <div class="skill-tags">
+          <span class="tag">Clean Arch</span>
+          <span class="tag">MVVM</span>
+          <span class="tag">MVP</span>
+          <span class="tag">Dependency Injection</span>
+          <span class="tag">Hilt</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">📊</span>
+        <div class="skill-name">Test Strategy</div>
+        <p class="skill-desc">Writing test plans, bug reports, and documenting QA processes that teams can actually follow.</p>
+        <div class="skill-tags">
+          <span class="tag">Test Cases</span>
+          <span class="tag">Bug Tracking</span>
+          <span class="tag">Regression</span>
+          <span class="tag">Smoke Testing</span>
+          <span class="tag">UAT</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── PROJECTS ─── -->
+  <section id="projects">
+    <div class="section-label">// 03 — Projects</div>
+    <div class="section-title reveal">SELECTED<br>WORK</div>
+    <div class="projects-list reveal">
+
+      <!-- CHANGE: Replace each block with your real projects -->
+      <div class="project-item">
+        <div class="project-num">01</div>
+        <div class="project-info">
+          <div class="project-name">TASKFLOW APP</div>
+          <p class="project-desc">A productivity Android app with offline-first architecture, local Room database sync, and push notifications. Supports team collaboration and real-time task tracking.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-type">Android</span>
+          <span class="project-arrow">↗</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-num">02</div>
+        <div class="project-info">
+          <div class="project-name">AUTOMATED TEST SUITE</div>
+          <p class="project-desc">End-to-end Appium + JUnit test framework for a fintech app. Reduced regression time by 70% and integrated into CI/CD pipeline with automated reporting.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-type">QA Automation</span>
+          <span class="project-arrow">↗</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-num">03</div>
+        <div class="project-info">
+          <div class="project-name">MEDTRACK</div>
+          <p class="project-desc">Healthcare companion app with medication reminders, doctor visit logs, and health metrics. Built with Jetpack Compose and Firebase real-time database.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-type">Android</span>
+          <span class="project-arrow">↗</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-num">04</div>
+        <div class="project-info">
+          <div class="project-name">API PERFORMANCE TESTER</div>
+          <p class="project-desc">Custom tool for stress-testing REST APIs under load. Generates detailed latency reports and identifies performance bottlenecks before production deployment.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-type">QA Tool</span>
+          <span class="project-arrow">↗</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <div class="section-label">// 04 — Contact</div>
+        <div class="contact-big reveal">
+          LET'S<br>
+          <span class="red">BUILD</span><br>
+          SOMETHING
+        </div>
+        <p class="contact-sub reveal">
+          Whether you need an Android developer, a QA engineer, or someone who does both — I'd love to hear about your project.
+        </p>
+      </div>
+      <div class="contact-right reveal">
+        <div class="contact-links">
+
+          <!-- CHANGE: Replace with your real email -->
+          <a href="mailto:akashmaurya751869@gmail.com" class="contact-link">
+            <div>
+              <div class="contact-link-label">Email</div>
+              <div class="contact-link-val">your@email.com</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+          <!-- CHANGE: Replace with your LinkedIn URL and display text -->
+          <a href="http://linkedin.com/in/akash-maurya-6510ab280/" class="contact-link">
+            <div>
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-val">linkedin.com/in/you</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+          <!-- CHANGE: Replace with your GitHub URL and handle -->
+          <a href="https://github.com/AkashMaurya7478/" class="contact-link">
+            <div>
+              <div class="contact-link-label">GitHub</div>
+              <div class="contact-link-val">github.com/you</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+          <!-- CHANGE: Replace 'resume.pdf' with your actual resume filename -->
+          <a href="Akash_CV.pdf" download class="contact-link">
+            <div>
+              <div class="contact-link-label">Resume</div>
+              <div class="contact-link-val">Download CV</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <!-- CHANGE: Replace 'Your Name' with your real name -->
+    <span>© 2026 — Your Name</span>
+    <span>Android Dev &amp; QA Engineer</span>
+    <span>Ludhiana, IN</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
