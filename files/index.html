@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akash Maurya — Android Dev & QA Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Crimson+Pro:ital,wght@0,300;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ─── NAV ─── -->
+  <nav>
+    <div class="nav-logo">A<span>.</span>DEV</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="Akash_CV.pdf" download>Download CV</a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-lines">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero-tag">Available for work &nbsp;·&nbsp; Punjab, India</div>
+    <h1>
+      ANDROID<br>
+      <span class="dim">&amp; QA</span><br>
+      <span class="accent">ENGINEER</span>
+    </h1>
+    <p class="hero-sub">
+      Building bulletproof Android apps and breaking them systematically — because great software demands both creation and destruction.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Projects →</a>
+      <a href="#contact" class="btn-ghost">Get In Touch</a>
+    </div>
+    <div class="scroll-hint">
+      <span class="scroll-line"></span>
+      Scroll to explore
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about">
+    <div class="section-label">// 01 — About</div>
+    <div class="about-grid">
+
+      <div class="about-left reveal">
+        <div class="about-avatar">
+          <!-- Replace 'your-photo.jpg' with your actual photo filename -->
+          <img
+            src="ak.jpeg"
+            alt="Akash Maurya"
+            class="avatar-photo"
+            onerror="this.style.display='none'; document.querySelector('.avatar-fallback').style.display='flex';"
+          />
+          <div class="avatar-fallback">
+            <div class="avatar-initials">AM</div>
+            <div class="avatar-label">Add your-photo.jpg</div>
+          </div>
+        </div>
+        <div class="avatar-name">Akash Maurya</div>
+        <div class="avatar-title">Android Dev &amp; QA Engineer</div>
+      </div>
+
+      <div class="about-right">
+        <p class="about-bio reveal">
+          I'm a <em>Software Tester</em> and <em>Android Developer</em> who thrives at the intersection of creation and critical thinking. I build native Android applications with clean architecture — and then I tear them apart methodically to find every edge case before users do.
+        </p>
+        <p class="about-bio reveal" style="margin-bottom: 40px; font-size: 17px; color: var(--muted);">
+          My dual perspective as both developer and quality engineer means I write code that's not just functional, but resilient. I don't just ship features — I ship confidence.
+        </p>
+        <div class="about-details reveal">
+          <div class="detail-row">
+            <span class="detail-key">Location</span>
+            <span class="detail-val">Punjab, India</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-key">Mobile</span>
+            <span class="detail-val">+91-7518697008</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-key">DSA</span>
+            <span class="detail-val">100+ problems solved on LeetCode &amp; Codeforces</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-key">Status</span>
+            <span class="detail-val" style="color: #22c55e;">● Open to Opportunities</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── SKILLS ─── -->
+  <section id="skills">
+    <div class="section-label">// 02 — Skills</div>
+    <div class="section-title reveal">WHAT I<br>DO BEST</div>
+    <div class="skills-grid reveal">
+
+      <div class="skill-card">
+        <span class="skill-icon">💻</span>
+        <div class="skill-name">Languages</div>
+        <p class="skill-desc">Strong foundation in multiple programming languages for both systems and application development.</p>
+        <div class="skill-tags">
+          <span class="tag">Kotlin</span>
+          <span class="tag">Java</span>
+          <span class="tag">C++</span>
+          <span class="tag">Python</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">📱</span>
+        <div class="skill-name">Android Development</div>
+        <p class="skill-desc">Native Android apps built with modern tools, clean UI patterns, and production-ready architecture.</p>
+        <div class="skill-tags">
+          <span class="tag">Android Studio</span>
+          <span class="tag">Kotlin</span>
+          <span class="tag">Java</span>
+          <span class="tag">Eclipse</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🌐</span>
+        <div class="skill-name">Web & Frameworks</div>
+        <p class="skill-desc">Front-end development with responsive design and interactive UI components.</p>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <!-- <span class="tag">Node.js</span>
+          <span class="tag">Express.js</span> -->
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🛠️</span>
+        <div class="skill-name">Tools & Platforms</div>
+        <p class="skill-desc">Proficient in industry-standard tools for version control, project management, and development workflows.</p>
+        <div class="skill-tags">
+          <span class="tag">GitHub</span>
+          <span class="tag">Jira</span>
+          <span class="tag">Android Studio</span>
+          <span class="tag">Eclipse</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🧠</span>
+        <div class="skill-name">Data Structures & Algorithms</div>
+        <p class="skill-desc">Solved 100+ DSA problems on LeetCode and Codeforces — strong problem-solving and algorithmic thinking.</p>
+        <div class="skill-tags">
+          <span class="tag">LeetCode</span>
+          <span class="tag">Codeforces</span>
+          <span class="tag">C++</span>
+          <span class="tag">Optimization</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🤝</span>
+        <div class="skill-name">Soft Skills</div>
+        <p class="skill-desc">Beyond code — leadership, adaptability, and strong project management that keeps teams moving.</p>
+        <div class="skill-tags">
+          <span class="tag">Problem-Solving</span>
+          <span class="tag">Leadership</span>
+          <span class="tag">Project Management</span>
+          <span class="tag">Adaptability</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── PROJECTS ─── -->
+  <section id="projects">
+    <div class="section-label">// 03 — Projects</div>
+    <div class="section-title reveal">SELECTED<br>WORK</div>
+    <div class="projects-list reveal">
+
+      <div class="project-item">
+        <div class="project-num">01</div>
+        <div class="project-info">
+          <div class="project-name">SCIENCE EXPERIMENT ADVISOR</div>
+          <p class="project-desc">A web platform using HTML, CSS, JavaScript and Node.js that helps users get experiment suggestions based on topics and difficulty levels. Features real-time recommendation logic, a Node.js backend with REST APIs, responsive design, and smooth client-server communication via Express.js.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-type">Web / Node.js</span>
+          <span class="project-arrow">↗</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-num">02</div>
+        <div class="project-info">
+          <div class="project-name">HOTEL MANAGEMENT SYSTEM</div>
+          <p class="project-desc">A C++-based system with room booking, check-out, stay extension, and real-time availability tracking. Includes date handling, billing calculation, conflict-free reservation logic, and occupancy/revenue reports — built with clean modular design using vectors and structured data.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-type">C++</span>
+          <span class="project-arrow">↗</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-num">03</div>
+        <div class="project-info">
+          <div class="project-name">LIBRARY MANAGEMENT SYSTEM</div>
+          <p class="project-desc">Built during Summer Training in Data Structures & Algorithms — a comprehensive C++ library system applying real-world DSA concepts including efficient data management, search algorithms, and structured record handling.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-type">C++ / DSA</span>
+          <span class="project-arrow">↗</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── CERTIFICATES ─── -->
+  <section id="certificates">
+    <div class="section-label">// 04 — Certificates</div>
+    <div class="section-title reveal">CERTIFIED<br>KNOWLEDGE</div>
+    <div class="cert-list reveal">
+
+      <div class="cert-item">
+        <div class="cert-icon">🏅</div>
+        <div class="cert-info">
+          <div class="cert-name">Social Network</div>
+          <div class="cert-issuer">NPTEL &nbsp;·&nbsp; Apr</div>
+        </div>
+      </div>
+
+      <div class="cert-item">
+        <div class="cert-icon">🏅</div>
+        <div class="cert-info">
+          <div class="cert-name">Introduction to Hardware and Operating Systems</div>
+          <div class="cert-issuer">Coursera &nbsp;·&nbsp; Sept</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <div class="section-label">// 05 — Contact</div>
+        <div class="contact-big reveal">
+          LET'S<br>
+          <span class="red">BUILD</span><br>
+          SOMETHING
+        </div>
+        <p class="contact-sub reveal">
+          Whether you need an Android developer, a QA engineer, or someone who does both — I'd love to hear about your project.
+        </p>
+      </div>
+      <div class="contact-right reveal">
+        <div class="contact-links">
+
+          <a href="mailto:akashmaurya751869@gmail.com" class="contact-link">
+            <div>
+              <div class="contact-link-label">Email</div>
+              <div class="contact-link-val">akashmaurya751869@gmail.com</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/akash-maurya-6510ab280/" target="_blank" class="contact-link">
+            <div>
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-val">akash-maurya-6510ab280</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+          <a href="https://github.com/AkashMaurya7478/" target="_blank" class="contact-link">
+            <div>
+              <div class="contact-link-label">GitHub</div>
+              <div class="contact-link-val">github.com/AkashMaurya7478</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+          <!-- Replace 'resume.pdf' with your actual resume filename -->
+          <a href="resume.pdf" download class="contact-link">
+            <div>
+              <div class="contact-link-label">Resume</div>
+              <div class="contact-link-val">Download CV</div>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <span>© 2026 — Akash Maurya</span>
+    <span>Android Dev &amp; QA Engineer</span>
+    <span>Punjab, India</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

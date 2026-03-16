@@ -281,7 +281,7 @@ section { padding: 120px 60px; position: relative; }
 .about-left { position: sticky; top: 120px; }
 
 .about-avatar {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   aspect-ratio: 1/1;
   background: var(--surface);
